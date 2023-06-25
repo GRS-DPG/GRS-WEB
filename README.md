@@ -1,4 +1,4 @@
-# Welcome to the Grievance Redress System (Backend)
+# Welcome to the Grievance Redress System (Frontend)
 
 - [Authors](#authors)
 - [Prerequisites](#prerequisites)
@@ -50,8 +50,6 @@ npm install
 ```shell
 npm run dev
 ```
-
-
 
 ## Usage
 
