@@ -1,6 +1,7 @@
 # Welcome to the Grievance Redress System (Frontend)
 
 - [Authors](#authors)
+- [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,6 +12,12 @@
 
 - [@Biplob](https://www.linkedin.com/in/ekramul-kabir-biplob/)
 - [@Tappware Solutions Limited](https://tappware.com/)
+
+## Features
+
+- [Admin Features](https://github.com/GRS-DPG/GRS-Documentations/blob/master/3.2%20GRS%20Admin%20Manual.doc)
+- [Complianant Features](https://github.com/GRS-DPG/GRS-Documentations/blob/master/3.1%20GRS-Complianant-Manual.doc)
+- [GRO & Appeal Officer Features](https://github.com/GRS-DPG/GRS-Documentations/blob/master/3.3%20GRS%20GRO%20_%20Appeal%20Officer%20Manual.doc)
 
 
 ## Prerequisites
@@ -53,16 +60,53 @@ npm run dev
 
 ## Usage
 
-Go to the link `http://127.0.0.1:5173/`
+Go to the link `http://127.0.0.1:5173/` for login and enter the system admin credentials below.
+
+##### Demo complianant credentials
+
+```shell
+mobile no: 01756888319
+password: 123456
+```
+
+##### Demo system admin credentials
+
+```shell
+user id: 200000000163
+password: 02522016
+```
+
+##### Demo gro officer credentials
+
+```shell
+user id: 100000006843
+password: 02522016
+```
+
+##### Demo appeal officer credentials
+
+```shell
+user id: 100000004769
+password: 02522016
+```
+
+
+## Developer Guide
+
+### Basic Instruction
+
+- All model should extend BaseModel class.
+- All controller should extend BaseController class.
+
 
 ## Contributions and Support
 
-Thanks to [everyone](https://github.com/a2i-dpg/skills-and-certification/graphs/contributors)
+Thanks to [everyone](https://github.com/GRS-DPG/GRS-WEB/graphs/contributors)
 who has contributed to this project!
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md) to contribute.
 
-If you found any bugs, Please report it using [Github](https://github.com/a2i-dpg/skills-and-certification/issues)
+If you found any bugs, Please report it using [Github](https://github.com/GRS-DPG/GRS-WEB/issues)
 
 ## License
 
@@ -79,3 +123,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
